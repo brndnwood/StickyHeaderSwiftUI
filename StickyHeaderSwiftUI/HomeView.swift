@@ -68,7 +68,7 @@ extension HomeView {
                     .scaleEffect( getHeaderScale(scale: (height + minY)/height ))
             }
             .frame(height: getHeaderHeight(height: height + minY))
-            .offset(y: -minY)
+            .offset(y: -minY)  // pins header to top
             
         }
         .frame(height: 200)
